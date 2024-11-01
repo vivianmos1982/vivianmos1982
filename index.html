@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1262c0e020.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <a class="logo" href="index.html"><i class="fa-solid fa-mug-saucer"></i></a>
+            <nav>
+                <ul>
+                    <li><a href="formulario/formulario.htm">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de mí</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#servicio">Servicio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <div class="contenedor-frase">
+                <button id="btn-generar">Generar Frase Aleatoria</button>
+                <footer id="footer">
+                <p id="frase"></p>
+                </footer>
+            </div>
+            <section class="seccion1">
+                <div class="acerca-de">
+                    <h2>¡Bienvenidos a Café y Tortas Julian!</h2>
+                    <p>¡Bienvenido a mi página! Aquí, aprenderás más sobre nosotros.</p>
+                    <p>"Café Cultural Sabores de Nuestra Tierra" es un espacio acogedor y vibrante donde la tradición y la cultura se fusionan en cada taza de café y en cada bocado. Nuestro enfoque está en ofrecer una experiencia única que resalta la riqueza de la gastronomía local, a través de productos a base de café, bebidas tradicionales del Valle y tortas artesanales, como la emblemática torta de chontaduro, junto con una selección de cafés provenientes de regiones reconocidas por su producción sostenible y de calidad. Entre los productos resaltan: bebidas como capuchinos de café, café tradicional, granizados de café, lulada del Valle, snacks como tiramisú, genovesa de chontaduro con endulzantes naturales, tortas artesanales como genovesa de maracuyá, torta de café con chontaduro y postres de café.</p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/genovesa de cafe.jpg" alt="imagen portada">
+                </div>
+            </section>
+            <section class="seccion2">
+                <img src="img/cafe (1).jpg" alt="imagen de carrusel" style="height: 400px; width: 99%;">
+            </section>
+        </main>
+        <footer>
+            <h3>Redes Sociales</h3>
+            <div class="icono">
+                
+                    <a href=""> <i class="fa-brands fa-instagram"></i</a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                
+            </div>
+           
+            <!-- Contenido del footer -->
+             
+        </footer>
+    </div>
+    
+</body>
+<script src="./index.js"></script>
+</html>

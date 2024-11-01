@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+      }
+}
+
+ol,
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: peru;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+header a i{
+    color: white;
+    font-size: 3em;
+    padding: 0,6em;
+
+}
+
+header nav ul{
+    display: flex;
+    gap: 1.1em;
+    padding: 1%;
+    margin: 1%;
+    justify-content: flex-end;
+    
+}
+
+header nav ul a {
+    color: white;
+
+}
+li {
+    color: white;
+}
+
+
+.acerca-de h2{
+    text-align: center;
+}
+
+.acerca-de p{
+    display: flex;
+    width: 70%;
+    height: 60%;
+    margin: top 20px;
+    justify-content: space-between;
+    
+}
+
+.acerca-imagen{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 18%;
+    left: 75%;
+    width: 20%;
+    height: 35%;
+}
+
+.seccion2{
+    display: flex;
+    left: 5px;
+    
+}
+
+.icono{
+    color: blue;
+    font-size: 3em;
+    padding: 0.5em;
+}
+#check{
+    display: none;
+    }
+    
+    .checkbtn{
+    font-size: 25px;
+    color: rgb(219, 21, 21);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    }
+
+    @media (min-width: 768px) {
+        .image-content{
+        max-width: 45%;
+        background-color: #f25c5c;
+        
+        }
+        }
+        
+        @media (min-width: 1024px) {
+        .image-content{
+        max-width: 80%;
+        background-color: aqua;
+        
+        }
+        }
+
+        .contenedor-frase{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .btn-generar{
+            text-align: center;
+            background-color: #f25c5c;
+            width: 500px;
+
+        }

@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+      }
+}
+
+ol,
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a i{
+    color: blue;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+header nav ul{
+    display: flex;
+    gap: 1.1em;
+}
+
+header nav ul{
+    color: black;
+}
+
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 99%; /* Define el ancho máximo del contenedor */
+    margin: 8px auto; /* Centra el contenedor horizontalmente */
+    padding: 2%; /* Agrega un poco de espacio alrededor del formulario */
+    border: 2px; /* Agrega un borde al contenedor */
+    border-radius: 1px solid black; /* Agrega bordes redondeados al contenedor */
+  }
+
+  .form-group {
+    margin-bottom: 20px; /* Espacio entre cada input */
+    
+  }
+
+  abel {
+    margin-bottom: 5px;
+  }
+
+  textarea {
+    width: XX; /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
+
+  button {
+    background-color: blue;
+    color: white;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+        
